@@ -7,8 +7,8 @@ const Navbar = () => {
     <>
     <div className="navbar">
         <div className='navbar-left'> 
-            <img src={logo} alt="navbar-logo" className="navbar-logo" />
-            <h2>HoloVisison.io</h2>
+            <img src="#" alt="navbar-logo" className="navbar-logo" />
+            <h2>HoloVision.io</h2>
         </div>
     
     <div className='navbar-right'>

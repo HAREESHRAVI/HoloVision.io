@@ -1,0 +1,50 @@
+.about-container {
+  margin: 90px 30px 0px 30px;
+  border-radius: 20px;
+}
+.about-heading {
+  color: #f1683a;
+  font-weight: 500;
+  font-size: 40px;
+  align-items: center;
+  text-align: center;
+}
+.about-content {
+  margin-left: 80px;
+  font-size: 30px;
+  width: 90%;
+  text-align: left;
+  align-items: center;
+  line-height: 50px;
+}
+.about-button {
+  color: black;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  position: absolute;
+  left: 75%;
+  background-color: #eee;
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.about-button:hover {
+  color: #f1683a;
+  border: none;
+  padding: 10px;
+  margin-top: 20px;
+  position: absolute;
+  left: 75%;
+  background-color: transparent;
+  border: 2px solid white;
+  letter-spacing: 3px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 25px;
+  border-radius: 10px;
+  transition: background-color 0.3s, margin 0.3s;
+}

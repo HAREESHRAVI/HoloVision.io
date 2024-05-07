@@ -8,7 +8,7 @@ const Navbar = () => {
     <div className="navbar">
         <div className='navbar-left'> 
             <img src="#" alt="navbar-logo" className="navbar-logo" />
-            <h2>HoloVision.io</h2>
+            <h1>HoloVision.io</h1>
         </div>
     
     <div className='navbar-right'>

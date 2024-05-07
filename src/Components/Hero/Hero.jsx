@@ -6,7 +6,7 @@ import lepord from '../../assets/lepord.jpg';
 
 const Hero = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
-    const images = [moose, elephant, lepord];
+    const images = [lepord, elephant,moose];
 
     useEffect(() => {
         const intervalId = setInterval(() => {
@@ -27,8 +27,8 @@ const Hero = () => {
                         <div className="des">Rediscover the awe-inspiring beauty of extinct flora and fauna through time and space with our evolutionary holovision experiences.Discover lost ecosystems and unlock the secrets of ancient life forms.
                         </div>
                         <div className="buttons">
-                            <button>FLORA</button>
-                            <button>FAUNA</button>
+                            <button className='flora-button'>FLORA</button>
+                            <button className='fauna-button'>FAUNA</button>
                         </div>
                     </div>
                 </div>

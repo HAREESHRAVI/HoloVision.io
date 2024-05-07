@@ -28,7 +28,7 @@
   color: #fff;
 }
 .des {
-  font-size: 20px;
+  font-size: 23px;
   margin-top: 30px;
 }
 .carousel .list .item .title,
@@ -40,12 +40,14 @@
 .carousel .list .item .topic {
   color: #f1683a;
 }
-.carousel .list .item .buttons {
+.buttons {
   display: flex;
   gap: 30px;
   margin-top: 30px;
 }
-.carousel .list .item .buttons button {
+.flora-button {
+  width: 125px;
+  height: 50px;
   border: none;
   background-color: #eee;
   letter-spacing: 3px;
@@ -54,10 +56,40 @@
   font-size: 25px;
   border-radius: 10px;
 }
-.carousel .list .item .buttons button:nth-child(2) {
+.fauna-button {
+  width: 125px;
+  height: 50px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: Poppins;
   background-color: transparent;
   border: 1px solid #fff;
   color: #eee;
+  border-radius: 10px;
+}
+.flora-button:hover {
+  width: 125px;
+  height: 50px;
+  letter-spacing: 3px;
+  font-weight: 500;
+  font-size: 25px;
+  font-family: Poppins;
+  background-color: transparent;
+  border: 1px solid #fff;
+  color: #eee;
+  border-radius: 10px;
+}
+.fauna-button:hover {
+  color: black;
+  width: 125px;
+  height: 50px;
+  border: none;
+  background-color: #eee;
+  letter-spacing: 3px;
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 25px;
   border-radius: 10px;
 }
 .carousel .list .item:nth-child(1) {
